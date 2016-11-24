@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/adangel/liquibase-percona.svg?branch=master)](https://travis-ci.org/adangel/liquibase-percona)
 
-Extension to support the tool `pt-online-schema-change` from Percona Toolkit.
+Extension to support the tool `pt-online-schema-change` from the [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit).
+
 This extension replaces a couple of the default changes to use `pt-online-schema-change` instead of SQL.
 This allows to perform a non-locking database upgrade.
 
